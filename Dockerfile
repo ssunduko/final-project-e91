@@ -32,7 +32,7 @@ CMD     ["/usr/sbin/httpd","-D","FOREGROUND"]
 # 5)
 # Then copy file index.html from the host to 
 # /var/www/html/ on the container.
-COPY    index.html /var/www/html/
+COPY    /tmp/images/final-project-e91/index.html /var/www/html/
 
 # 6)
 # If everything went fine then docker
