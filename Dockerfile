@@ -30,11 +30,7 @@ CMD     ["/usr/sbin/httpd","-D","FOREGROUND"]
 
 
 # 5)
-<<<<<<< HEAD
-# Then copy file index.html from the host to
-=======
-# Then copy files (e.g. index.html) from the host to 
->>>>>>> stage
+# Then copy files (e.g. index.html) from the host to
 # /var/www/html/ on the container.
 COPY    index.html /var/www/html/
 COPY    img/leo.jpg /var/www/html/img/
