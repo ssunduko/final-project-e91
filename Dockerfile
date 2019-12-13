@@ -33,6 +33,7 @@ CMD     ["/usr/sbin/httpd","-D","FOREGROUND"]
 # Then copy files (e.g. index.html) from the host to
 # /var/www/html/ on the container.
 COPY    index.html /var/www/html/
+COPY    img/leo.jpg /var/www/html/img/
 COPY    img/rongxin.png /var/www/html/img/
 COPY    img/sergey.png /var/www/html/img/
 
